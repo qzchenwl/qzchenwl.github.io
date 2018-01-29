@@ -12,7 +12,7 @@ before_script:
   - git clone --branch master https://github.com/qzchenwl/qzchenwl.github.io.git public
 
 script:
-  - npm run build
+  - hexo generate
 
 after_success:
   - cd public
