@@ -22,7 +22,7 @@ after_success:
   - git commit -m "travis ci build"
   - git remote rm origin
   - git remote add origin https://$Personal_access_token@github.com/qzchenwl/qzchenwl.github.io.git
-  - git push https://$Personal_access_tokens@github.com/qzchenwl/qzchenwl.github.io.git master
+  - git push https://$Personal_access_token@github.com/qzchenwl/qzchenwl.github.io.git master
 
 branches:
   only:
